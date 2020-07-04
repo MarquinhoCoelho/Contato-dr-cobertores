@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro - Dr.Cobertores</h1><br>
+        <h2 th:text="${bebida.nome}"></h2>
+        <h2 th:text="${bebida.descricao}"></h2>
+        <h2 th:text="${bebida.fabricante}"></h2>
+        <h2 th:text="${bebida.teor}"></h2>
+        <h2 th:text="${bebida.preco}"></h2>
+      
+        <a href="/cadastrar">Voltar</a>
+    </div>
+
+
+    <script src="/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
